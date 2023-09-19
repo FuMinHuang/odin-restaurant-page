@@ -40,14 +40,14 @@
     max-width: 100%;
 }
 
-.description-1 .header{
+.description1 .header{
     font-family: 'Roboto';
     font-size: 36px;
     text-align: center;
     padding: 60px 0px 100px;
 }
 
-.description-1 .box-container {
+.description1 .boxContainer {
     display: flex;
     width: 1200px;
     margin: auto;
@@ -56,12 +56,12 @@
     padding-bottom: 60px;
 }
 
-.description-1 .icon {
+.description1 .icon {
     max-width: 22%;
   }
   
 
-.description-1 .box {
+.description1 .box {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -70,14 +70,14 @@
     gap: 20px;
 }
 
-.description-1 .p1 {
+.description1 .p1 {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #b18347;
     font-size: 24px;
 }
 
-.description-1 .p2 {
+.description1 .p2 {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -85,13 +85,14 @@
 }
 
 
-.description-2 {
-    height: 300px;
-    padding: 60px 750px;
+.description2 {
+    display: flex;
+    padding: 60px 800px;
+    align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    line-height: 30px;
+    line-height: 36px;
     background-color: #e6e5db;
 }
