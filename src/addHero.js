@@ -4,7 +4,7 @@ export function addHero() {
     hero.classList.add("hero");
 
     let img = document.createElement("img");
-    img.src = "../src/restaurant.jpg";
+    img.src = "./images/restaurant.jpg";
 
     bodyContent.append(hero);
     hero.append(img);    

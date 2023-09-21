@@ -9,7 +9,7 @@ export function addMenuHero() {
     menuHero.classList.add("menuHero");
 
     let img = document.createElement("img");
-    img.src = "../src/menuhero.jpg";
+    img.src = "./images/menuhero.jpg";
    
     menuHero.append(img);
 

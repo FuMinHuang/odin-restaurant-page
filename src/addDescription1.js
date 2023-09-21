@@ -26,9 +26,9 @@ export function addDescription1() {
     img2.classList.add("icon");
     img3.classList.add("icon");
 
-    img1.src = "../src/star-solid.svg";
-    img2.src = "../src/shrimp-solid.svg";
-    img3.src = "../src/wine-glass-solid.svg";
+    img1.src = "./images/star-solid.svg";
+    img2.src = "./images/shrimp-solid.svg";
+    img3.src = "./images/wine-glass-solid.svg";
 
     let box1P1 = document.createElement("div");
     let box1P2 = document.createElement("div");

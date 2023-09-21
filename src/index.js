@@ -18,3 +18,5 @@ homeBtn.addEventListener("click", function() {homePageLoad()});
 
 const menuBtn = document.getElementById("menu");
 menuBtn.addEventListener("click", function() {menuPageLoad()});
+
+console.log("Test");

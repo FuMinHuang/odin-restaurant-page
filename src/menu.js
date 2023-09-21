@@ -1,5 +1,4 @@
 import { addMenuHero } from "./addMenuHero";
-import { addMenuDetails } from "./addMenuDetails";
 
 export function menuPageLoad() {
     let bodyContent = document.querySelector(".bodyContent");
@@ -9,5 +8,4 @@ export function menuPageLoad() {
     };
 
     addMenuHero();
-    addMenuDetails();
 };
